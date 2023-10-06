@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <cmath>
+
 int main()
 {
     float x1, y1, r1, x2, y2, r2, d;
@@ -17,10 +17,6 @@ int main()
     if ((d == 0) && (r1 == r2))
     {
         printf("the circles coincide");
-    }
-    if ((d == 0) && (r1 != r2))
-    {
-        printf("the centers coincide and one circle inside another");
     }
     else if (d > (r1 + r2))
     {
